@@ -1,12 +1,12 @@
 {
-    "name": "Moodle Extension",
+    "name": "Test",
     "version": "69",
-    "description": "Extension for chrome which improves functions regarding viewing lectures on Moodle",
+    "description": "Test",
     "permissions": ["storage", "declarativeContent", "activeTab"],
     "content_scripts": [
         {
             "matches": [
-                "https://www.moodle.aau.dk/*"
+                "https://www.viafree.dk/*"
             ] ,
             "js": [
                 "content.js"
@@ -14,20 +14,5 @@
             "run_at": "document_end"
         }
     ],
-    "options_page": "options.html",
-    "page_action": {
-        "default_icon": {
-            "16": "images/icon16.png",
-            "32": "images/icon32.png",
-            "48": "images/icon48.png",
-            "128": "images/icon128.png"
-        }
-    },
-    "icons": {
-        "16": "images/icon16.png",
-        "32": "images/icon32.png",
-        "48": "images/icon48.png",
-        "128": "images/icon128.png"
-      },
     "manifest_version": 2
 }
