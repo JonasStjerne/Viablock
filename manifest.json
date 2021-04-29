@@ -6,7 +6,7 @@
     "content_scripts": [
         {
             "matches": [
-                "https://www.viafree.dk/*"
+                "https://www.viafree.dk/programmer/reality/paradise-hotel*"
             ] ,
             "js": [
                 "content.js"
