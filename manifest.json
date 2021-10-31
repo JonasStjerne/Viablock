@@ -1,7 +1,7 @@
 {
-    "name": "Test",
+    "name": "Viablock",
     "version": "69",
-    "description": "Test",
+    "description": "Skip test",
     "permissions": ["storage", "declarativeContent", "activeTab"],
     "content_scripts": [
         {
